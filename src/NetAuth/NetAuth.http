@@ -1,0 +1,19 @@
+@NetAuth_HostAddress = http://localhost:5003
+
+POST {{NetAuth_HostAddress}}/auth/register
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "Passw0rd!"
+}
+
+###
+
+POST {{NetAuth_HostAddress}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "testuser",
+  "password": "Passw0rd!"
+}
