@@ -10,4 +10,8 @@ public class AuthDbContext : DbContext
     }
 
     public DbSet<User> Users => Set<User>();
+    public DbSet<Client> Clients => Set<Client>();
+    public DbSet<ClientSecret> ClientSecrets => Set<ClientSecret>();
+    public DbSet<AuthorizationCode> AuthorizationCodes => Set<AuthorizationCode>();
+    public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
 }
