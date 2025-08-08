@@ -50,4 +50,3 @@ sequenceDiagram
     SPA->>Auth: POST /refresh
     Auth-->>SPA: New Access Token
 ```
-

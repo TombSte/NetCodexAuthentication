@@ -111,6 +111,7 @@ These tables enable core user flows such as registration, password change, and l
   2. `dotnet build`
   3. `dotnet test`
   4. `docker build` using a generated `Dockerfile` at the solution root
+  5. `docker push` to container registry. The registry is provided by pipeline variable
 - Use pipeline variables or Key Vault integration for secrets management.
 
 ## Use Cases
