@@ -1,5 +1,3 @@
-AGENT.md
-
 # .NET Authentication Server Generator Agent
 
 This Codex agent helps to create the skeleton of a .NET Core project that acts as an OAuth2 authentication server with JWT.
@@ -17,6 +15,8 @@ Generate the base code for an authentication service in ASP.NET Core, including:
 ## Project Structure
 
 ```
+/documentation
+  └─ All documentation files
 /azuredevops
   └─ pipeline.yml
 
