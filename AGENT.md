@@ -67,7 +67,6 @@ These tables enable core user flows such as registration, password change, and l
 - **Use Cases**: implemented with MediatR
 - **Database**: Entity Framework Core with `AuthDbContext`
 - **Token**: JWT, with keys stored in the database to support annual rotation
-- **Test**: XUnit with Moq for mocking
 - **Testing**: XUnit with FluentAssertions and NSubstitute for mocking
 
 ## Supported Prompts
